@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HaiDoc | Azkazikna</title>
+    <link rel="stylesheet" href="dist/css/output.css">
+    <link rel="stylesheet" href="dist/css/swiper.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-poppins bg-background text-primary overflow-x-hidden">
+    <!-- header start -->
+    <header class="relative top-0 w-full flex justify-center transition duration-500 ease-in-out z-[99999] bg-background bg-opacity-70 backdrop-blur-sm;">
+        <div class="container flex justify-between items-center px-3 py-2">
+            <div class="px-4 py-3 flex items-center gap-28">
+                <a href="index.html"><h1 class="text-2xl lg:text-3xl">Hai<span class="text-secondary font-bold">Doc</span></h1></a>
+                <nav class="hidden absolute top-full right-4 px-4 py-4 min-w-[250px] border-[1px] shadow-lg rounded-xl lg:static lg:block lg:border-0 bg-background lg:bg-transparent lg:shadow-none">
+                    <ul class="lg:flex gap-10 items-center">
+                        <a id="nav-items" href="#about"><li class="text-base mt-3 transition duration-500 ease-in-out lg:mt-0">Home</li></a>
+                        <a id="nav-items" href="#work"><li class="text-base mt-3 transition duration-500 ease-in-out lg:mt-0">Doctor</li></a>
+                        <a id="nav-items" href="#built"><li class="text-base mt-3 transition duration-500 ease-in-out lg:mt-0">Services</li></a>
+                        <a id="nav-items" href="#contact"><li class="text-base mt-3 transition duration-500 ease-in-out lg:mt-0">Review</li></a>
+                        <a href="#" class="mt-7 block px-5 py-3 lg:hidden"><li>Sign In</li></a>
+                        <a href="#" class="bg-secondary px-5 py-3 text-white rounded-[10px] shadow-lg mt-3 block lg:hidden"><li>Sign Up</li></a>
+                    </ul>
+                </nav>
+            </div>
+            <button class="hamburger px-4 py-3 lg:hidden" type="button">
+                <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+                <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+            </button>
+            <div class="hidden lg:flex px-4 py-3 gap-5 items-center">
+                <a href="#" class="">Sign In</a>
+                <a href="#" class="bg-secondary px-5 py-3 text-white rounded-[10px] shadow-lg font-light">Sign Up</a>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- hero section start -->
+    <section id="hero" class="py-32 lg:pt-0 lg:pb-38">
+        <div class="container lg:flex px-4 mx-auto items-center">
+            <div class="w-full">
+                <h1 class="text-5xl lg:6xl xl:text-7xl font-bold text-center lg:text-left">A Great Place to Receive Care</h1>
+                <p class="mt-7 font-light text-center lg:text-left font-montserrat text-paragraf">
+                    Medical Recover is most focused in helping you discover your most beautiful smile
+                </p>
+                <div class="flex justify-center lg:justify-start mt-7 gap-5">
+                    <a href="#" class="shadow-md px-8 py-4 text-white rounded-md bg-secondary text-[14px]">Get Quote Now</a>
+                    <a href="#" class="shadow-md px-10 py-4 text-secondary rounded-md bg-transparent text-[14px] border-[1px] border-secondary">Learn Now</a>
+                </div>
+            </div>
+            <div class="w-full">
+                <img src="dist/img/hero.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- section step start -->
+    <section id="step" class="pb-32 lg:pb-38">
+        <div class="container px-4 mx-auto relative pb-32 lg:pb-40">
+            <div class="w-full"><h1 class="text-3xl lg:text-4xl font-semibold text-center mb-10">Step by step <br>to get your solutions</h1></div>
+            <div class="flex flex-col lg:flex-row justify-center items-center gap-6">
+                <div class="w-full lg:w-96 bg-step rounded-b-lg border-t-2 border-secondary px-5 py-4 shadow-md">
+                    <div class="flex items-center gap-6">
+                        <img src="dist/img/icon/Search.png" alt="">
+                        <div class="text">
+                            <h4 class="text-lg mb-2 font-semibold">Check health complaints</h4>
+                            <p class="font-montserrat text-paragraf">Check the disease so you can easily choose the right specialist.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-step shadow-lg px-5 py-5 rounded-lg hidden lg:block">
+                    <img src="dist/img/icon/kanan.png" alt="">
+                </div>
+                <div class="w-full lg:w-96 bg-step rounded-b-lg border-t-2 border-secondary px-5 py-4 shadow-md">
+                    <div class="flex items-center gap-6">
+                        <img src="dist/img/icon/Profile.png" alt="">
+                        <div class="text">
+                            <h4 class="text-lg mb-2 font-semibold">Choose doctor specialist</h4>
+                            <p class="font-montserrat text-paragraf">Choose a specialist according to your disease complaints.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col lg:flex-row justify-center items-center gap-6 lg:mt-10 mt-6">
+                <div class="w-full lg:w-96 bg-step rounded-b-lg border-t-2 border-secondary px-5 py-4 shadow-md">
+                    <div class="flex items-center gap-6">
+                        <img src="dist/img/icon/Star.png" alt="">
+                        <div class="text">
+                            <h4 class="text-lg mb-2 font-semibold">Get your Solutions</h4>
+                            <p class="font-montserrat text-paragraf">Check the disease so you can easily choose the right specialist.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-step shadow-lg px-5 py-5 rounded-lg hidden lg:block">
+                    <img src="dist/img/icon/kiri.png" alt="">
+                </div>
+                <div class="w-full lg:w-96 bg-step rounded-b-lg border-t-2 border-secondary px-5 py-4 shadow-md">
+                    <div class="flex items-center gap-6">
+                        <img src="dist/img/icon/Calendar.png" alt="">
+                        <div class="text">
+                            <h4 class="text-lg mb-2 font-semibold">Make a Schedule</h4>
+                            <p class="font-montserrat text-paragraf">Choose a specialist according to your disease complaints.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="dist/img/step1.png" alt="" class="absolute -z-10 bottom-0">
+            <img src="dist/img/step2.png" alt="" class="absolute -z-10 bottom-0 right-0">
+        </div>
+    </section>
+    <!-- section step end -->
+
+    <!-- section find start -->
+    <section id="find" class="pb-32 lg:pb-38">
+        <div class="container px-4 mx-auto flex flex-col gap-28 lg:flex-row">
+            <div class="w-full">
+                <h1 class="text-3xl lg:text-4xl font-semibold mb-7">Find the right doctor according to your complaint</h1>
+                <p class="font-montserrat text-paragraf">HealthCare.ly is a free, health app that goes beyond matching you with doctors.
+                    It actively helps you find the right doctor based on your medical and personal
+                    needs and connects you with your HealthCarely community for ongoing
+                    support throughout your journey to healthier living.</p>
+                <div class="flex gap-1 items-center -ml-4 mt-4">
+                    <img src="dist/img/icon/check.png" alt="">
+                    <p class="font-medium mt-3">100% free app designed to help you find the right doctor for you.</p>
+                </div>
+                <div class="flex gap-1 items-center -ml-4 -mt-3 mb-7">
+                    <img src="dist/img/icon/check.png" alt="">
+                    <p class="font-medium mt-3">Available 900 doctors specialist</p>
+                </div>
+                <a href="#" class="shadow-md px-8 py-4 text-white rounded-md bg-secondary text-[14px]">See the Doctors</a>
+            </div>
+            <div class="w-full relative pb-32 lg:pb-38">
+                <div class="card px-10 py-7 bg-step shadow-md rounded-xl w-[fit-content] mx-auto flex flex-col">
+                    <p class="text-black font-medium">Available Doctors</p>
+                    <p class="font-light">Select Doctors</p>
+                    <div class="flex gap-2 items-center mt-5">
+                        <img src="dist/img/doctor1.png" alt="" >
+                        <div class="text">
+                            <p class="text-black font-medium">Dr. Adinda</p>
+                            <p class="font-light">Eye Specialist</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-2 items-center mt-5">
+                        <img src="dist/img/doctor2.png" alt="" >
+                        <div class="text">
+                            <p class="text-black font-medium">Dr. Jackson</p>
+                            <p class="font-light">Ear Specialist</p>
+                        </div>
+                    </div>
+                    <a href="#" class="text-secondary rounded-xl bg-[#EDF1FF] text-center px-6 py-3 mt-4 w-full">Find Doctor</a>
+                </div>
+                <img src="dist/img/find1.png" alt="" class="absolute bottom-0 right-0 -z-10">
+            </div>
+        </div>
+    </section>
+    <!-- section find end -->
+
+    <!-- section shedule start -->
+    <section id="schedule" class="pb-32 lg:pb-38">
+        <div class="container flex flex-col lg:flex-row mx-auto gap-10 px-4">
+            <div class="w-full">
+                <img src="dist/img/shedule.png" alt="">
+            </div>
+            <div class="w-full">
+                <h1 class="text-3xl lg:text-4xl font-semibold mb-7">Make a schedule in advance with the available doctor</h1>
+                <p class="font-montserrat text-paragraf">Healthcare is a very painful process, especially if you’re not taking care
+                    of your health and having regular check-ups. HealhtyCarely makes it
+                    easier for everyone to schedule a doctor’s appointment.</p>
+                <div class="flex gap-1 items-center -ml-4 mt-4">
+                    <img src="dist/img/icon/check.png" alt="">
+                    <p class="font-medium mt-3">Make a schedule online is easy</p>
+                </div>
+                <div class="flex gap-1 items-center -ml-4 -mt-3 mb-7">
+                    <img src="dist/img/icon/check.png" alt="">
+                    <p class="font-medium mt-3">Easy to connect with doctor</p>
+                </div>
+                <a href="#" class="shadow-md px-8 py-4 text-white rounded-md bg-secondary text-[14px]">Make Schedule Now!</a>
+            </div>
+        </div>
+    </section>
+    <!-- section shedule end -->
+
+    <!-- section benefit start -->
+    <section id="benefit" class="pb-32 lg:pb-38">
+        <div class="container mx-auto px-4 relative pb-20">
+            <h1 class="text-3xl lg:text-4xl font-semibold mb-14 text-center">We’re employee benefit at <br>7500+ hospital</h1>
+            <div class="flex flex-col lg:flex-row gap-10 justify-center items-center">
+                <div class="w-[fit-content] px-28 py-20 bg-step border-t-2 border-secondary rounded-b-xl shadow-lg">
+                    <h1 class="font-bold text-3xl lg:text-4xl text-center mb-5">900+</h1>
+                    <h4 class="font-semibold text-lg text-center">Verified Specialist</h4>
+                    <p class="font-light text-center">Highly Verified</p>
+                </div>
+                <div class="w-[fit-content] px-28 py-20 bg-step border-t-2 border-secondary rounded-b-xl shadow-lg">
+                    <h1 class="font-bold text-3xl lg:text-4xl text-center mb-5">4500+</h1>
+                    <h4 class="font-semibold text-lg text-center">Happy Customers</h4>
+                    <p class="font-light text-center">Highly Performance</p>
+                </div>
+                <div class="w-[fit-content] px-28 py-20 bg-step border-t-2 border-secondary rounded-b-xl shadow-lg">
+                    <h1 class="font-bold text-3xl lg:text-4xl text-center mb-5">99,7%</h1>
+                    <h4 class="font-semibold text-lg text-center">Positive Feedback</h4>
+                    <p class="font-light text-center">Customers Approve</p>
+                </div>
+            </div>
+            <img src="dist/img/benefit1.png" alt="" class="absolute bottom-0 left-0 scale-110 -z-10 hidden lg:block">
+            <img src="dist/img/benefit2.png" alt="" class="absolute bottom-0 left-1/2 -translate-x-1/2 -z-10">
+            <img src="dist/img/benefit1.png" alt="" class="absolute bottom-0 right-0 scale-110 -z-10 hidden lg:block">
+        </div>
+    </section>
+    <!-- section benefit end -->
+
+    <!-- section feedback start -->
+    <section id="feedback" class="pb-32 lg:pb-38">
+        <div class="container mx-auto px-4 relative pb-32">
+            <h1 class="text-3xl lg:text-4xl font-semibold mb-5 text-center">Our patients feedback <br>about us</h1>
+            <p class="font-montserrat text-center">their impression after using this application</p>
+            <div class="swiper relative">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide mt-24 flex justify-center flex-col items-center">
+                        <h2 class="text-xl lg:text-2xl text-center w-full lg:w-1/2 font-montserrat tracking-wide">Healthycarely is an website and mobile app for you to feel better or get medical help. We offer you a 24/7 doctor service with no appointment needed</h2>
+                        <img src="dist/img/testi.png" alt="" class="mt-9">
+                        <p class="font-semibold mt-4">JOHN SMITH</p>
+                        <p class="font-montserrat">Founder of Awesomeux Technology</p>
+                    </div>
+                </div>
+                <img src="dist/img/“.png" alt="" class="absolute top-0 left-32">
+                <div class="bg-step px-4 py-4 shadow-md w-[fit-content] rounded-lg absolute bottom-16 lg:left-1/3 swiper-button-prev"><img src="dist/img/icon/kiri.png" alt=""></div>
+                <div class="bg-step px-4 py-4 shadow-md w-[fit-content] rounded-lg absolute bottom-16 right-0 lg:right-1/3 swiper-button-next"><img src="dist/img/icon/kanan.png" alt=""></div>
+            </div>
+            <img src="dist/img/testi1.png" alt="" class="absolute bottom-0 left-0">
+            <img src="dist/img/testi2.png" alt="" class="absolute bottom-0 right-0">
+        </div>
+    </section>
+    <!-- section feedback end -->
+
+    <!-- footer start -->
+    <footer class="py-20 bg-step">
+        <div class="container mx-auto flex flex-col lg:flex-row gap-10 lg:gap-48 justify-between px-4">
+            <div class="w-full lg:w-[40%]">
+                <h1 class="text-2xl lg:text-3xl">Hai<span class="font-bold text-secondary">Doc</span></h1>
+                <p class="font-montserrat tracking-wide mt-5 text-paragraf">Lorem Ipsum is simply dummy text of the printing and typesetting 
+                    industry. Lorem Ipsum has been the industry's standard dummy 
+                    text ever since the 1500s, when an unknown printer took a 
+                    galley of type and scrambled it to make a type
+                    specimen book.</p>
+            </div>
+            <div class="flex flex-col lg:flex-row gap-4 lg:gap-10 w-full lg:w-[60%]">
+                <div class="w-full">
+                    <h1 class="text-xl lg:text-2xl font-semibold">Overview</h1>
+                    <ul class="mt-5">
+                        <li class="font-montserrat tracking-wide mb-4 text-paragraf"><a href="#">Checking Health</a></li>
+                        <li class="font-montserrat tracking-wide mb-4 text-paragraf"><a href="#">Find Doctor</a></li>
+                        <li class="font-montserrat tracking-wide mb-4 text-paragraf"><a href="#">Make a Schedule</a></li>
+                    </ul>
+                </div>
+                <div class="w-full">
+                    <h1 class="text-xl lg:text-2xl font-semibold">Company</h1>
+                    <ul class="mt-5">
+                        <li class="font-montserrat tracking-wide mb-4 text-paragraf"><a href="#">Home</a></li>
+                        <li class="font-montserrat tracking-wide mb-4 text-paragraf"><a href="#">About</a></li>
+                        <li class="font-montserrat tracking-wide mb-4 text-paragraf"><a href="#">Services</a></li>
+                    </ul>
+                </div>
+                <div class="w-full">
+                    <h1 class="text-xl lg:text-2xl font-semibold">Explore</h1>
+                    <ul class="mt-5">
+                        <li class="font-montserrat tracking-wide mb-4 text-paragraf"><a href="#">Terms & Conds</a></li>
+                        <li class="font-montserrat tracking-wide mb-4 text-paragraf"><a href="#">Privacy Police</a></li>
+                        <li class="font-montserrat tracking-wide mb-4 text-paragraf"><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+                <div class="w-full">
+                    <h1 class="text-xl lg:text-2xl font-semibold">Social Media</h1>
+                    <ul class="mt-5 flex gap-3">
+                        <li class="text-paragraf"><a href="#">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.00195 12.002C2.00312 16.9214 5.58036 21.1101 10.439 21.881V14.892H7.90195V12.002H10.442V9.80204C10.3284 8.75958 10.6845 7.72064 11.4136 6.96698C12.1427 6.21332 13.1693 5.82306 14.215 5.90204C14.9655 5.91417 15.7141 5.98101 16.455 6.10205V8.56104H15.191C14.7558 8.50405 14.3183 8.64777 14.0017 8.95171C13.6851 9.25566 13.5237 9.68693 13.563 10.124V12.002H16.334L15.891 14.893H13.563V21.881C18.8174 21.0506 22.502 16.2518 21.9475 10.9611C21.3929 5.67041 16.7932 1.73997 11.4808 2.01722C6.16831 2.29447 2.0028 6.68235 2.00195 12.002Z" fill="#687B9E"/>
+                            </svg>
+                        </a></li>
+                        <li class="text-paragraf"><a href="#">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.002 21.041C9.54195 21.041 9.25195 21.028 8.29195 20.986C7.54332 20.9614 6.80439 20.8092 6.10695 20.536C4.90026 20.0664 3.94609 19.1119 3.47695 17.905C3.21426 17.205 3.07257 16.4655 3.05795 15.718C3.00195 14.76 3.00195 14.446 3.00195 12.005C3.00195 9.538 3.01495 9.25 3.05795 8.295C3.07289 7.54853 3.21457 6.81001 3.47695 6.111C3.94558 4.90253 4.9013 3.94718 6.10995 3.479C6.8086 3.21521 7.5473 3.07315 8.29395 3.059C9.24895 3.005 9.56295 3.005 12.002 3.005C14.482 3.005 14.767 3.018 15.712 3.059C16.4605 3.07327 17.2012 3.21531 17.902 3.479C19.1103 3.94771 20.0658 4.90288 20.535 6.111C20.8021 6.8202 20.9445 7.57026 20.956 8.328C21.012 9.28601 21.012 9.59901 21.012 12.039C21.012 14.479 20.998 14.799 20.956 15.746C20.9411 16.4942 20.799 17.2344 20.536 17.935C20.0656 19.1427 19.11 20.0976 17.902 20.567C17.2022 20.8292 16.4631 20.9709 15.716 20.986C14.761 21.041 14.448 21.041 12.002 21.041ZM11.968 4.588C9.52195 4.588 9.26795 4.6 8.31295 4.643C7.74294 4.65056 7.17843 4.75575 6.64395 4.954C5.85471 5.25601 5.23018 5.878 4.92495 6.666C4.72517 7.2063 4.61996 7.77698 4.61395 8.353C4.56095 9.322 4.56095 9.576 4.56095 12.005C4.56095 14.405 4.56995 14.696 4.61395 15.659C4.62291 16.2292 4.72805 16.7938 4.92495 17.329C5.23063 18.1165 5.85505 18.738 6.64395 19.04C7.17807 19.2396 7.7428 19.3448 8.31295 19.351C9.28095 19.407 9.53595 19.407 11.968 19.407C14.421 19.407 14.675 19.395 15.622 19.351C16.1924 19.3441 16.7573 19.2389 17.292 19.04C18.0764 18.7354 18.6969 18.1153 19.002 17.331C19.2014 16.7903 19.3065 16.2193 19.313 15.643H19.324C19.367 14.687 19.367 14.432 19.367 11.989C19.367 9.54601 19.356 9.289 19.313 8.334C19.304 7.76446 19.1988 7.20052 19.002 6.666C18.6976 5.88058 18.077 5.2593 17.292 4.954C16.7574 4.75475 16.1924 4.64953 15.622 4.643C14.655 4.588 14.402 4.588 11.968 4.588ZM12.002 16.624C10.1319 16.6252 8.44537 15.4997 7.72882 13.7725C7.01226 12.0452 7.40686 10.0563 8.72858 8.73347C10.0503 7.4106 12.0388 7.01428 13.7667 7.72934C15.4946 8.4444 16.6215 10.13 16.622 12C16.6192 14.5511 14.553 16.619 12.002 16.624ZM12.002 8.998C10.3451 8.998 9.00195 10.3412 9.00195 11.998C9.00195 13.6549 10.3451 14.998 12.002 14.998C13.6588 14.998 15.002 13.6549 15.002 11.998C14.9981 10.3427 13.6572 9.00185 12.002 8.998ZM16.802 8.28501C16.2074 8.2828 15.7269 7.79959 15.728 7.20501C15.7291 6.61043 16.2114 6.12901 16.806 6.12901C17.4005 6.12901 17.8828 6.61042 17.884 7.205C17.8842 7.49187 17.7702 7.76703 17.5672 7.96968C17.3642 8.17234 17.0888 8.2858 16.802 8.28501Z" fill="#687B9E"/>
+                            </svg>
+                        </a></li>
+                        <li class="text-paragraf"><a href="#">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.995 6.68799C20.8914 6.15208 21.5622 5.30823 21.882 4.31399C21.0397 4.81379 20.118 5.16587 19.157 5.35499C17.8246 3.94552 15.7135 3.60251 14.0034 4.51764C12.2933 5.43277 11.4075 7.37948 11.841 9.26999C8.39062 9.09676 5.17598 7.4669 2.99702 4.78599C1.85986 6.74741 2.44097 9.25477 4.32502 10.516C3.64373 10.4941 2.97754 10.3096 2.38202 9.97799C2.38202 9.99599 2.38202 10.014 2.38202 10.032C2.38241 12.0751 3.82239 13.8351 5.82502 14.24C5.19308 14.4119 4.53022 14.4372 3.88702 14.314C4.45022 16.0613 6.06057 17.2583 7.89602 17.294C6.37585 18.4871 4.49849 19.1342 2.56602 19.131C2.22349 19.1315 1.88123 19.1118 1.54102 19.072C3.50341 20.333 5.78738 21.0023 8.12002 21C11.3653 21.0223 14.484 19.7429 16.7787 17.448C19.0734 15.1531 20.3526 12.0342 20.33 8.78899C20.33 8.60299 20.3257 8.41799 20.317 8.23399C21.1575 7.62659 21.8828 6.87414 22.459 6.01199C21.676 6.35905 20.8455 6.58691 19.995 6.68799Z" fill="#687B9E"/>
+                            </svg>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="dist/js/script.js"></script>
+</body>
+</html>
