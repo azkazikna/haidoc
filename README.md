@@ -13,9 +13,6 @@ Landing pages for medical. I slicing the figma design into a website.
 git clone https://github.com/Azkazikna/haidoc
 ```
 
-# Framework
-1. Tailwindcss v3.1.6
-
 # License
 
 This repository is under GPL License
